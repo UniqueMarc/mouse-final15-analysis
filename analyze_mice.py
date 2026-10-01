@@ -1,9 +1,7 @@
-"""Quantify the 45 specified ROIs in the 15 final mouse image panels.
+"""Quantify three ROIs in each of 15 mouse images listed in data/manifest.json.
 
-Only images named in data/manifest.json are read; folders are never scanned for
-additional experiments. The output is recalculated from these final images. It
-does not compare against old plotted values, infer animal IDs, or run hypothesis
-tests. The display-color algorithm retains the 2026-09-14 numerical operations.
+Match colored pixels to each image color bar and export ROI measurements
+and descriptive summaries.
 """
 
 from __future__ import annotations
@@ -90,9 +88,8 @@ def measure(rgb, box, lo, hi):
     The ROI box [x0, y0, x1, y1] uses exclusive upper bounds. Chromatic pixels
     have max(RGB)-min(RGB)>25 and max(RGB)>55. Each retained color is mapped to
     the closest color-bar entry in Euclidean RGB space, accepting distances <=55.
-    A linear high-to-low scale is used and accepted values are summed. The float
-    dtypes, block size, first-index tie rule, and sum order are deliberately kept
-    as in the original 2026-09-14 algorithm. No background subtraction, area
+    A linear high-to-low scale is used and accepted values are summed.
+    No background subtraction, area
     normalization, or between-image normalization is performed.
     """
     validate_measurement(rgb, box, lo, hi)
@@ -247,10 +244,8 @@ def analyze(manifest_path: Path, data_root: Path, output_dir: Path, *, write_qc=
         "panels_analyzed": len(manifest), "rois_quantified": len(rows),
         "images_checksum_verified": len(checksums),
         "time_points_h": [2, 4, 8], "groups_per_time_point": 5, "rois_per_panel": 3,
-        "algorithm": "20260914 nearest-RGB color-bar mapping",
+        "algorithm": "nearest-RGB color-bar mapping",
         "signal_unit": "image-derived integrated signal (a.u.)",
-        "recalculated_from_final15_images": True,
-        "prior_figure_numbers_compared": False,
         "animal_identity_validated": False,
         "hypothesis_tests_performed": False,
         "summary_definition": "Arithmetic mean and sample SD (ddof=1) of three ROIs per panel.",
