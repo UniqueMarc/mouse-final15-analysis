@@ -1,0 +1,3 @@
+# Verified with Python 3.12.14; tests use standard-library unittest.
+numpy==2.3.5
+Pillow==12.3.0

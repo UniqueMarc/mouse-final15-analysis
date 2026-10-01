@@ -1,0 +1,99 @@
+{
+  "panels_analyzed": 15,
+  "rois_quantified": 45,
+  "images_checksum_verified": 15,
+  "time_points_h": [
+    2,
+    4,
+    8
+  ],
+  "groups_per_time_point": 5,
+  "rois_per_panel": 3,
+  "algorithm": "20260914 nearest-RGB color-bar mapping",
+  "signal_unit": "image-derived integrated signal (a.u.)",
+  "recalculated_from_final15_images": true,
+  "prior_figure_numbers_compared": false,
+  "animal_identity_validated": false,
+  "hypothesis_tests_performed": false,
+  "summary_definition": "Arithmetic mean and sample SD (ddof=1) of three ROIs per panel.",
+  "slot_definition": "Display slot and source mouse position are panel positions, not animal IDs.",
+  "zero_definition": "No displayed pixels passed the fixed chromatic/color-distance criteria.",
+  "qc_images_written": 0,
+  "source_image_checksums": [
+    {
+      "image": "images/2H/01_mRNA__005-merger[20260910-204423-20250235].tif",
+      "sha256": "97e093e2fbeadea2e4419b792dc381e865ef5ef05aa6ba2bbb4c210d1ffe8844",
+      "verified": true
+    },
+    {
+      "image": "images/2H/02_DOPC_mRNA__007-merger[20260910-210644-20250235].tif",
+      "sha256": "45b21c6a4aaa5517cfc80775e9ed1fa4e6b4bdb8fd0e09f75e1152855cc9d65c",
+      "verified": true
+    },
+    {
+      "image": "images/2H/03_DOPC_Chole_mRNA__014-merger[20260910-224429-20250235].tif",
+      "sha256": "268fa28aaf8d13397c181bfc49595675abd6cd7a31f17a326f51d8d2d537e9df",
+      "verified": true
+    },
+    {
+      "image": "images/2H/04_66DOPC33DOPG_mRNA__010-merger[20260910-214644-20250235].tif",
+      "sha256": "60958420d8725369b26397eb7e528f9c000a8333ea06669d2e9334877b262385",
+      "verified": true
+    },
+    {
+      "image": "images/2H/05_66DOPC33DOPG_Chole_mRNA__013-merger[20260910-222941-20250235].tif",
+      "sha256": "8668a11ae4d7b892e7718e821b6c8901babe7b56bfe868677904d3f83fc1c2f1",
+      "verified": true
+    },
+    {
+      "image": "images/4H/01_mRNA__020-merger[20260910-235635-20250235].tif",
+      "sha256": "1480c35595eac8ddb29b235e978a256c19bcba87fc3f447876c20071adee68b3",
+      "verified": true
+    },
+    {
+      "image": "images/4H/02_DOPC_mRNA__021-merger[20260911-001145-20250235].tif",
+      "sha256": "978b41cf86df652c8824c3aa168b66a06ded2c36562960121e75a81a1d238da5",
+      "verified": true
+    },
+    {
+      "image": "images/4H/03_DOPC_Chole_mRNA__024-merger[20260911-004213-20250235].tif",
+      "sha256": "1bd7df5e48eff196d204a24c52745e1c594aaf22d2e4e2449777f0a7fb5b2e41",
+      "verified": true
+    },
+    {
+      "image": "images/4H/04_66DOPC33DOPG_mRNA__001-merger[20260911-005646-20250235].tif",
+      "sha256": "2164d4d7647987efa0d580822d4b2ffc4575a4f7907dd0f617e9663ee82a4bb7",
+      "verified": true
+    },
+    {
+      "image": "images/4H/05_66DOPC33DOPG_Chole_mRNA__001-merger[20260911-012451-20250235].tif",
+      "sha256": "8621777d9dade5e2363b9094d1a4a7a53737f71408dc33a4fcee05a904b64160",
+      "verified": true
+    },
+    {
+      "image": "images/8H/01_mRNA__035-merger[20260911-023255-20250235].tif",
+      "sha256": "a2b61a5c31eb3915af4a2b166e196e963bf25be35016bcd7e171754d8fb6a15c",
+      "verified": true
+    },
+    {
+      "image": "images/8H/02_DOPC_mRNA__040-merger[20260911-030047-20250235] (2).tif",
+      "sha256": "e7f83a74bfe185e30ee425ca84b57c556aa902a84395b595a2619a080b98d2ce",
+      "verified": true
+    },
+    {
+      "image": "images/8H/03_DOPC_Chole_mRNA__043-merger[20260911-031940-20250235].tif",
+      "sha256": "5dc7ee60127e7f4ffd1f9fc509eed3fd10c34559851d02b06423719336252f00",
+      "verified": true
+    },
+    {
+      "image": "images/8H/04_66DOPC33DOPG_mRNA__045-merger[20260911-033836-20250235].tif",
+      "sha256": "b021eca882064a7a81a96e4c2e193325f94fd8abd05fd6b649ecf39ad03ad637",
+      "verified": true
+    },
+    {
+      "image": "images/8H/05_66DOPC33DOPG_Chole_mRNA__050-merger[20260911-042249-20250235].tif",
+      "sha256": "311dc1519ea4bad820ee966422751192412b250d24f493fdeb59e3cc39d19644",
+      "verified": true
+    }
+  ]
+}

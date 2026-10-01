@@ -1,0 +1,14 @@
+{
+  "checked_on": "2026-10-02",
+  "input_tiff_count": 15,
+  "input_total_bytes": 30418146,
+  "input_total_MiB": 29.009005,
+  "largest_input_bytes": 2096326,
+  "largest_input_MiB": 1.999212,
+  "web_per_file_limit_bytes": 26214400,
+  "web_batch_file_count_limit": 100,
+  "all_input_files_below_web_limit": true,
+  "github_source": "https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository",
+  "remote_upload_performed": false,
+  "scope": "Only final-figure 15 original TIFFs and their code, manifest, instructions, tests and newly computed results."
+}
